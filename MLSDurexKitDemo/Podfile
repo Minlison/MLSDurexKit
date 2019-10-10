@@ -1,0 +1,19 @@
+source 'https://github.com/cocoapods/Specs.git'
+source 'https://github.com/Minlison/Specs.git'
+
+platform :ios, '9.0'
+install! 'cocoapods',
+#deterministic_uuids: false,
+#disable_input_output_paths: true,
+#generate_multiple_pod_projects: true,
+#incremental_installation: true
+
+use_frameworks!
+inhibit_all_warnings!
+target 'MLSDurexKitDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MLSDurexKitDemo
+  pod 'MLSDurexKit', :path => '../'
+end

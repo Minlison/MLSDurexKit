@@ -1,0 +1,20 @@
+PODS:
+  - MLSDurexKit (1.0.0):
+    - MLSDurexKit/Core (= 1.0.0)
+    - MLSDurexKit/MRC (= 1.0.0)
+  - MLSDurexKit/Core (1.0.0)
+  - MLSDurexKit/MRC (1.0.0)
+
+DEPENDENCIES:
+  - MLSDurexKit (from `../`)
+
+EXTERNAL SOURCES:
+  MLSDurexKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MLSDurexKit: e583beab6f0ffc0377378b01168d272e05cc138f
+
+PODFILE CHECKSUM: 910e7ec17ede251f4a21750ed74b827a5f6a8d95
+
+COCOAPODS: 1.7.5

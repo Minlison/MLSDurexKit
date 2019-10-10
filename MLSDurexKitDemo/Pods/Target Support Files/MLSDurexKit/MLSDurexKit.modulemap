@@ -1,0 +1,6 @@
+framework module MLSDurexKit {
+  umbrella header "MLSDurexKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

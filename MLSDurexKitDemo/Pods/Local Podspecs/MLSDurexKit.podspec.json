@@ -1,0 +1,34 @@
+{
+  "name": "MLSDurexKit",
+  "version": "1.0.0",
+  "summary": "防止崩溃容错处理",
+  "description": "Hack并exchange系统方法，拦截崩溃，例如字典set nil 等",
+  "homepage": "https://www.minlison.cn",
+  "license": "MIT",
+  "authors": {
+    "Minlison": "yuanhang.1991@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/Minlison/MLSDurexKit.git",
+    "tag": "1.0.0"
+  },
+  "requires_arc": true,
+  "documentation_url": "https://www.minlison.cn",
+  "static_framework": true,
+  "subspecs": [
+    {
+      "name": "MRC",
+      "source_files": "Classes/MRC/*.{h,m}",
+      "public_header_files": "Classes/MRC/*.h"
+    },
+    {
+      "name": "Core",
+      "exclude_files": "Classes/MRC/*.{h,m}",
+      "source_files": "Classes/**/*.{h,m}",
+      "public_header_files": "Classes/**/*.h"
+    }
+  ]
+}
